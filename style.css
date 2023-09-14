@@ -1,0 +1,69 @@
+.root {
+  --bg: #f5efe7;
+  --bgbox: #537188;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg);
+  color: #212a3e;
+}
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #d4d7de;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+  opacity: 50%;
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 5%;
+}
+.logo {
+  flex: 1 1 auto;
+  margin-left: 9%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 30pt;
+  justify-content: center;
+}
+a {
+  margin: 15px;
+  color: black;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 800;
+}
+
+a:hover {
+  color: black;
+}
+
+.banner-area {
+  position: relative;
+  background-image: url(images/background.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
